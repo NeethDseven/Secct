@@ -22,7 +22,7 @@ function Footer() {
                     <li>Plan du site</li>
                     <li>Cookies Charte pour la protection des données</li>
                 </ul>
-                <ul className="icons mb-4">
+                <ul className="icons mt-4 mb-4">
                     <li><FaInstagramSquare/></li>
                     <li><FaFacebookSquare/></li>
                     <li><FaLinkedin/></li>
