@@ -5,6 +5,7 @@ function App() {
         <div className="App">
             <Header className="App-header" />
             <img src="/img/imageBaniere.webp" alt="Banière" className="w-full h-[500px]" />
+            <img src="/img/imageAcceuil.webp" alt="imgAcceuil" className="block mx-auto mt-[100px]" />
         </div>
     );
 }
