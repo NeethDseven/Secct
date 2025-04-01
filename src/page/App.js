@@ -1,11 +1,13 @@
 import Header from "../component/Header";
+import Footer from "../component/footer";
+import { Outlet } from "react-router-dom";
 
 function App() {
     return (
         <div className="App">
-            <Header className="App-header" />
-            <img src="/img/imageBaniere.webp" alt="Banière" className="w-full h-[500px]" />
-            <img src="/img/imageAcceuil.webp" alt="imgAcceuil" className="block mx-auto mt-[100px]" />
+            <Header />
+            <Outlet />
+            <Footer />
         </div>
     );
 }
