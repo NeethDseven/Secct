@@ -1,0 +1,40 @@
+.page-about p span {
+    color: purple;
+    font-weight: bold;
+}
+
+.test {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.img1 .img2{
+    width: 35%;
+}
+
+video {
+    width: 35%;
+}
+
+.img3 {
+    width: 75px;
+}
+
+@media (max-width: 800px) {
+    .test {
+        flex-direction: column;
+    }
+
+    .test2 {
+        flex-direction: column-reverse;
+    }
+
+    .img1 .img2 video {
+        width: 100%;
+    }
+
+
+}
