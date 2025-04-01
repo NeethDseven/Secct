@@ -7,7 +7,7 @@ function Home() {
 
     return (
         <div className="flex flex-col items-center">
-            <div className="app-home m-5 p-5">
+            <div className="app-home m-5 p-5 flex items-center">
                 <div className="text-home mr-5 flex flex-col items-center">
                     <TitleStyle color="bg-sky-500" value="Une véritable histoire"/>
                     <p>Tout a commencé en 1984 avec la création du premier site de production Les Crudettes à Cavaillon.
@@ -26,10 +26,10 @@ function Home() {
                         autant qu’à vos envies. Aujourd’hui des salades snacking, des soupes froides et plein de petits
                         trucs en plus pour rendre vos salades sexy en diable. Et demain des jus plus frais que frais,
                         des mélanges de saveurs audacieux et délicieux. Bref, on a hâte de vous présenter ça !</p>
-                    <Btn value="En savoir plus" link="#"/>
+                    <Btn value="En savoir plus" link="/about"/>
 
                 </div>
-                <img src="/img/champ.webp"/>
+                <img src="/img/champ.webp" className="w-[350px] h-[300px] mt-auto"/>
 
             </div>
 

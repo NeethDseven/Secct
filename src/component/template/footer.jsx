@@ -16,7 +16,7 @@ function Footer() {
                 </div>
                 <ul className="mb-4 flex flex-col items-center mr-4 text-center">
                     <li><a href="#">Contactez-nous</a></li>
-                    <li><a href="#">Recrutement</a></li>
+                    <li><a href="https://www.lescrudettes.com/offresemplois/">Recrutement</a></li>
                     <li>Mentions légales</li>
                     <li>Nos engagements</li>
                     <li>Plan du site</li>
