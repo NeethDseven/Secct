@@ -5,10 +5,10 @@ import "../styles/about-style.css"
 
 function About() {
     return (
-        <div className="page-about flex flex-col items-center mt-4">
+        <div className="page-about flex flex-col items-center mt-8">
             <TitleStyle value="une veritable histoire" color="bg-sky-500"/>
 
-            <div className="test mb-4">
+            <div className="test mb-4 mt-4">
                 <div>
                     <p><span> Tout a commencé en 1984 </span> avec la création du premier site de production Les
                         Crudettes à
@@ -54,7 +54,7 @@ function About() {
 
             <TitleStyle value="nos salade s'engage" color="bg-lime-500"/>
 
-            <div className="test">
+            <div className="test mt-5">
 
                 <video controls>
                     <source

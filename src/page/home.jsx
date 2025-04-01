@@ -7,10 +7,10 @@ function Home() {
 
     return (
         <div className="flex flex-col items-center">
-            <div className="app-home m-5 p-5 flex items-center">
-                <div className="text-home mr-5 flex flex-col items-center">
+            <div className="app-home m-5 flex items-center">
+                <div className="text-home mr-5 flex flex-col items-center mb-6">
                     <TitleStyle color="bg-sky-500" value="Une véritable histoire"/>
-                    <p>Tout a commencé en 1984 avec la création du premier site de production Les Crudettes à Cavaillon.
+                    <p className="mt-5">Tout a commencé en 1984 avec la création du premier site de production Les Crudettes à Cavaillon.
                         À partir de cette date on vous passe les détails, mais en gros ce fut une gentille et belle
                         ascension, doucement mais sûrement, parce qu’une entreprise aussi ça se cultive et que ça a
                         besoin de temps et d’investissement pour germer, pousser et puis s’élever.</p>
