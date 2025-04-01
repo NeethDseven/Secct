@@ -1,0 +1,30 @@
+.page-about  p  span{
+    color: purple;
+    font-weight: bold;
+}
+
+.page-about img {
+    max-width: 30%;
+}
+
+.test {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+    .test {
+        flex-direction: column;
+    }
+
+    .test2 {
+        flex-direction: column-reverse;
+    }
+
+    .page-about img {
+        max-width: 80%;
+    }
+}
