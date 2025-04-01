@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './page/App';
 import "./styles/index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
- import About from './page/About';
+// import About from './page/About';
+// import Home from './page/Home'
 // import Salades from './page/Salades';
 // import Vegetables from './page/Vegetables';
 // import Others from './page/Others';
@@ -11,11 +12,14 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
 
 
-            { path: '/', element: <App /> },
- { path: '/about', element: <About /> },
-// { path: '/salades', element: <Salades /> },
-// { path: '/vegetables', element: <Vegetables /> },
-// { path: '/others', element: <Others /> },
+    {
+        path: "/",
+        element: <App />
+        // children: [
+          //  { path: "/", element: <Home /> },
+          //  { path: "/about", element: <About /> }
+           // ],
+     }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

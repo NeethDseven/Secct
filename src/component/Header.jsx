@@ -56,8 +56,6 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-            <Outlet />
-            <Footer />
         </div>
     );
 }
