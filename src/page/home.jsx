@@ -29,7 +29,7 @@ function Home() {
                     <Btn value="En savoir plus" link="/about"/>
 
                 </div>
-                <img src="/img/champ.webp" className="w-[350px] h-[300px] mt-auto"/>
+                <img src="/img/champ.webp" className="w-auto h-auto mt-auto"/>
 
             </div>
 
