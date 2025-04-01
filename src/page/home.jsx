@@ -1,5 +1,6 @@
 import "../styles/home-style.css"
-import {BiSolidLeaf} from "react-icons/bi";
+import {Btn} from "../component/btn";
+import {TitleStyle} from "../component/title-style";
 
 
 function Home() {
@@ -8,12 +9,7 @@ function Home() {
         <div className="flex flex-col items-center">
             <div className="app-home m-5 p-5">
                 <div className="text-home mr-5 flex flex-col items-center">
-                    <h2 className="title-style bg-sky-500 mt-5 mb-5 w-fit">
-                        <span className="flex items-center">
-                            Une véritable histoire<BiSolidLeaf className="ml-2"/>
-                        </span>
-                    </h2>
-
+                    <TitleStyle color="bg-sky-500" value="Une véritable histoire"/>
                     <p>Tout a commencé en 1984 avec la création du premier site de production Les Crudettes à Cavaillon.
                         À partir de cette date on vous passe les détails, mais en gros ce fut une gentille et belle
                         ascension, doucement mais sûrement, parce qu’une entreprise aussi ça se cultive et que ça a
@@ -30,18 +26,15 @@ function Home() {
                         autant qu’à vos envies. Aujourd’hui des salades snacking, des soupes froides et plein de petits
                         trucs en plus pour rendre vos salades sexy en diable. Et demain des jus plus frais que frais,
                         des mélanges de saveurs audacieux et délicieux. Bref, on a hâte de vous présenter ça !</p>
-                    <button className="button-style bg-[#FFCC00] mx-auto px-5 py-2 m-5"><span>En savoir plus</span>
-                    </button>
+                    <Btn value="En savoir plus" link="#"/>
 
                 </div>
                 <img src="/img/champ.webp"/>
 
             </div>
-            <h2 className="title-style bg-purple-500 mt-20 mb-5 w-fit">
-        <span className="flex items-center">
-        nos produits<BiSolidLeaf className="ml-2"/>
-        </span>
-            </h2>
+
+            <TitleStyle color="bg-purple-500" value="nos produits"/>
+
             <div className="category-home flex w-4/5">
                 <a href="#" className="flex flex-col items-center">
                     <img className="w-52" src="/img/saladed-crudited.webp" alt="photo de salade et crudité"/>
