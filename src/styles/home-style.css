@@ -1,0 +1,25 @@
+.text-home > p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.category-home {
+    flex-direction: row;
+    justify-content: space-around;
+}
+.category-home > a {
+    align-self: baseline;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+    .category-home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .category-home > a {
+        align-self: center;
+        margin-bottom: 15px;
+    }
+}
