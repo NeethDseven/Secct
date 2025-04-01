@@ -1,10 +1,6 @@
-.page-about  p  span{
+.page-about p span {
     color: purple;
     font-weight: bold;
-}
-
-.page-about img {
-    max-width: 30%;
 }
 
 .test {
@@ -13,6 +9,18 @@
     flex-direction: row;
     align-items: center;
     margin-bottom: 50px;
+}
+
+.img1 .img2{
+    width: 35%;
+}
+
+video {
+    width: 35%;
+}
+
+.img3 {
+    width: 75px;
 }
 
 @media (max-width: 800px) {
@@ -24,7 +32,9 @@
         flex-direction: column-reverse;
     }
 
-    .page-about img {
-        max-width: 80%;
+    .img1 .img2 video {
+        width: 100%;
     }
+
+
 }

@@ -49,14 +49,14 @@ function About() {
                         défis de la nutrition, de la santé, de l’environnement, de l’aménagement du
                         territoire, avec Ambition, Passion et Humanité.</p>
                 </div>
-                <img className="w-1/3" src="/img/image(2).webp"/>
+                <img className="img1" src="/img/image(2).webp"/>
             </div>
 
             <TitleStyle value="nos salade s'engage" color="bg-lime-500"/>
 
             <div className="test">
 
-                <video controls className="w-1/3">
+                <video controls>
                     <source
                         src="https://www.lescrudettes.com/squelettes/interface2/nos-salades%20s-engagent.mp4"
                         type="video/mp4"
@@ -95,10 +95,10 @@ function About() {
                         lavage breveté par Les Crudettes afin de laver les salades efficacement tout en
                         respectant leur fragilité. Le froid est leur seul moyen de conservation.</p>
                 </div>
-                <img className="w-1/3" src="/img/image_1_.webp"/>
+                <img className="img2" src="/img/image_1_.webp"/>
             </div>
             <div className="test test2">
-                <img className="w-18" src="/img/image-11.webp"/>
+                <img className="img3" src="/img/image-11.webp"/>
             <div>
                 <p>Last but not least, <span>nos déchets verts sont recyclés</span> dans l’alimentation des animaux et dans le
                     compostage. Nous recyclons également nos emballages.</p>
